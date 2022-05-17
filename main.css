@@ -1,0 +1,88 @@
+body {
+    height: 2000px;
+    font-family: 微軟正黑體;
+}
+
+#wrap {
+    width: 90%;
+    height: 100%;
+    /* position: relative;  */
+    /* display: flex;
+    align-items: center; */
+    margin: auto;
+    margin-top: 3%;
+}
+
+
+.block {
+    width: 23%;
+    height:18%;
+    /* background: black; */
+    background: white;
+    float: left;
+    margin: 1%;
+    margin-bottom: 2%;
+}
+
+.block:hover {
+    transition: 0.5s 1s all;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
+
+}
+
+
+.block img {
+    width: 100%;
+}
+
+
+/* info */
+.block table {
+    width: 100%;
+    height: 35%;
+    border-collapse: collapse;
+    margin-top: 4%;
+}
+
+.block a {
+    text-decoration: none;
+    color: black;
+}
+
+.block table a:hover {
+    font-weight: bolder;
+}
+
+
+.block td:nth-child(1) {
+    width: 15%;
+}
+
+.block table td {
+    position: relative;
+    padding: 0;
+    vertical-align:text-top
+}
+
+img.profile {
+    width: 70%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    padding-left: 5px;
+
+}
+
+.block span {
+    font-size: 14px;
+}
+
+.block td p {
+    font-size: 16px;
+    font-weight: bolder;
+    /* position: absolute; */
+    margin-top: 0;
+    margin-bottom: 3%;
+    padding-right: 5px;
+}
