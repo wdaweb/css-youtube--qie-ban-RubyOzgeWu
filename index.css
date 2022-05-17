@@ -217,7 +217,7 @@ img {
 /* sidebar */
 #select {
     width: 100%;
-    height: 150%;
+    height: 147%;
     /* background-color: rgb(197, 197, 197); */
     font-size: 14px;
     display: flex;
@@ -245,6 +245,7 @@ img {
     display: block;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .select-cat .select:nth-child(1) {
@@ -283,6 +284,7 @@ img {
 .select-Text .text p {
     font-size: 10px;
     line-height: 18px;
+    margin-top: 20px;
 
 }
 
@@ -294,7 +296,7 @@ img {
     align-items: center;
     /* background: pink; */
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 
 }
 
@@ -332,6 +334,9 @@ img {
     position: relative;
     align-items: center;
 }
+.select-Area.Area1 p{
+    border-top:1px solid rgb(216, 214, 214) ;
+}
 
 .circle{
     width: 20px;
@@ -366,56 +371,33 @@ img {
 .footer{
     width: 100%;
     display: block;
-    background: lightblue;
 }
 .footer1,
 .footer2,
 .footer3{
-    border: 1px solid black;
-    height: 70px;
+    /* border: 1px solid black; */
+    height: 50px;
 }
+
+.footer2{
+    margin-bottom: 30px;
+}
+
 .footer>div{
-    padding: 16px 24px 0;
-    background: pink;
+    padding: 0px 24px 0;
+    /* background: pink; */
     display: block;
 }
-#select .footer a{
-    display: inline-block;
-    font-size: 10px;
-    line-height: 18px;
-    margin-right: 4px;
-    margin-top: -10px;
-
+.footer a{
+    text-decoration: none;
+    color: rgb(93, 92, 92);
+    font-size: 12px;
+    font-weight: 500;
 }
-/* 
-.footer1{
-    width: 90%;
-    height: 3%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background: lightblue;
-    padding: 10px 0;
-    padding-top: 5px;
-} */
-
-/* #select .footer1 a{
-    position: absolute;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer p{
+    color: rgb(93, 92, 92);
+    font-size: 12px;
+}
 
 /* content */
 /* pages */
